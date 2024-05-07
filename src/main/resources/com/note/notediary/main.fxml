@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.QuadCurve?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #fffffff8;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.note.notediary.MainController">
+   <children>
+      <AnchorPane layoutY="-1.0" opacity="0.64" prefHeight="81.0" prefWidth="700.0" style="-fx-background-color: #824214b8;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="-1.0">
+         <children>
+            <Label layoutX="194.0" layoutY="14.0" prefHeight="58.0" prefWidth="301.0" text="Note Diary" textAlignment="CENTER" textFill="WHITE" AnchorPane.rightAnchor="204.0" AnchorPane.topAnchor="14.0">
+               <font>
+                  <Font name="Algerian" size="51.0" />
+               </font>
+            </Label>
+            <Separator layoutX="92.0" orientation="VERTICAL" prefHeight="82.0" prefWidth="6.0" AnchorPane.leftAnchor="92.0" />
+            <Separator layoutX="602.0" orientation="VERTICAL" prefHeight="82.0" prefWidth="0.0" AnchorPane.rightAnchor="91.6" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="toComeIn" layoutX="277.0" layoutY="183.0" mnemonicParsing="false" opacity="0.64" prefHeight="30.0" prefWidth="145.0" style="-fx-background-color: #824214b8; -fx-border-color: black;" text="Войти" textFill="WHITE" AnchorPane.rightAnchor="277.4">
+         <font>
+            <Font name="toComeIn" size="18.0" />
+         </font>
+      </Button>
+      <Separator layoutY="366.0" prefHeight="4.0" prefWidth="700.0" style="-fx-background-color: #824214b8;" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+      <QuadCurve controlX="-1075.4000244140625" controlY="-147.79998779296875" endX="42.99993896484375" endY="8.0" fill="#b48471" layoutX="656.0" layoutY="357.0" opacity="0.64" startX="-674.8363037109375" startY="-1.4000244140625" stroke="BLACK" strokeType="INSIDE" AnchorPane.bottomAnchor="34.87690277099608" AnchorPane.leftAnchor="-124.79999999999995" />
+   </children>
+</AnchorPane>
