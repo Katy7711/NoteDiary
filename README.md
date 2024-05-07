@@ -15,6 +15,7 @@
 
 - Java 11
 - JavaFX 17
+  
 Графический интерфейс сконструирован в SceneBuilder.
 
 
@@ -43,6 +44,7 @@ The application allows you to add, delete, edit, view your notes!
 
 - Java 11
 - JavaFX 17
+  
   The graphical interface was developed in SceneBuilder.
 
 ## Launch:
